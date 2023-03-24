@@ -1,0 +1,87 @@
+details {
+  margin-left: 25px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+summary {
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+summary:hover {
+  background-color: #f0f0f0;
+}
+
+.search-hit {
+  background-color: rgba(250, 100, 120, 0.8);
+  transition: background-color 1s ease-in-out;
+  animation: fadeOut 25 ease-in-out 25 forwards;
+}
+
+@keyframes fadeOut {
+  to {
+    background-color: transparent;
+  }
+}
+
+
+
+/* Style the input and button elements with a relaxed, matte, and floating style */
+input[type="text"],
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #333;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Add a hover effect to the input and button elements */
+input[type="text"]:hover,
+button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Add a focus effect to the input element */
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the search button with a relaxed, matte, and floating gradient */
+#search-button {
+  background: linear-gradient(to bottom, #4caf50, #388e3c);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Add a hover effect to the search button */
+#search-button:hover {
+  background: linear-gradient(to bottom, #43a047, #2e7d32);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the clear button with a relaxed, matte, and floating gradient */
+#clear-button {
+  background: linear-gradient(to bottom, #f44336, #c62828);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Add a hover effect to the clear button */
+#clear-button:hover {
+  background: linear-gradient(to bottom, #ef5350, #b71c1c);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
